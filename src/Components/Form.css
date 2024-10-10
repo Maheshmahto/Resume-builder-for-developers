@@ -1,0 +1,162 @@
+*{
+    /* border: 2px solid magenta; */
+}
+
+.form-container{
+    width: 40%;
+    min-height: 800px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    /* text-align: center; */
+}
+
+
+
+input{
+    width: 90%;
+    margin: 0 auto;
+    padding: 8px;
+     outline: none;
+    
+}
+.skills{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.skills input{
+    margin-bottom: 10px;
+    margin-left: 15px;    
+}
+.education input{
+    margin-bottom: 10px;
+    margin-left: 15px; 
+}
+.education textarea{
+    margin-bottom: 10px;
+    margin-left: 15px; 
+}
+.project input{
+    margin-bottom: 10px;
+    margin-left: 15px; 
+}
+.project textarea{
+    margin-bottom: 10px;
+    margin-left: 15px; 
+}
+.expe-section input{
+    margin-bottom: 10px;
+    margin-left: 15px; 
+}
+.expe-section textarea{
+    margin-bottom: 10px;
+    margin-left: 15px; 
+}
+.achieve textarea {
+    margin-bottom: 10px;
+    margin-left: 15px; 
+}
+textarea{
+    width: 89.7%;
+    margin: 0 auto;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    
+}
+.form-container button{
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgb(59, 150, 186);
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+}
+.experience{
+    display: flex;
+    align-items: center;
+}
+
+.check{
+
+    display: flex;
+    align-items: center;
+     margin-left: 160px;
+     gap: 5px;
+}
+.checkbox input{
+    transform: scale(1.8);
+  
+}
+.form-container h2{
+    padding-left: 20px;
+}
+.form-container .certify{
+    margin-bottom: 20px;
+}
+@media screen and (max-width :1024px) {
+    .form-container{
+        display: flex;
+        /* align-items: center; */
+        width: 80%;
+        margin: 0 auto;
+    }
+    .education{
+        width: 100%;
+    }
+    .project{
+        width: 100%;
+    }
+    .expe-section{
+        width: 100%;
+    }
+    .achieve{
+        width: 100%;
+    }
+}
+@media screen and (max-width :600px){
+    .skills input{
+        margin: 5px auto;
+        margin-left: 5px;
+    }
+    .education input{
+        margin-bottom: 10px;
+        margin-left: 8px; 
+    }
+    .education textarea{
+        margin-bottom: 10px;
+        margin-left: 7.7px; 
+    }
+    .project input{
+        margin-bottom: 10px;
+        margin-left: 8px; 
+    }
+    .project textarea{
+        margin-bottom: 10px;
+        margin-left: 7.7px; 
+    }
+    .expe-section input{
+        margin-bottom: 10px;
+        margin-left: 8px; 
+    }
+    .expe-section textarea{
+        margin-bottom: 10px;
+        margin-left: 7.7px; 
+    }
+    .achieve textarea {
+        margin-bottom: 10px;
+        margin-left: 7.7px; 
+    }
+    .check{
+        margin-left: 70px ;
+    }
+    .form-container button{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}
+
+

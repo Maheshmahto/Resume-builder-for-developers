@@ -1,0 +1,87 @@
+.previewContainer{
+    /* border: 2px solid black; */
+    width: 48rem;
+    height: 69rem;
+    box-shadow: 0 0 8px;
+
+    /* line-height: 15px; */
+
+}
+.heading{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+h4{
+    text-align: center;
+    margin-top: 0;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.phone{
+    display: flex;
+    gap: 2px;
+}
+.email{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+   
+}
+.email2{
+    font-size: 23px;
+}
+.linkedin{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color : black;
+}
+.github{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: black;
+}
+ .previewContainer h2 {
+    border-bottom: 1px solid black;
+
+}
+.expe h3{
+margin-bottom: 0;
+}
+.expe p{
+    margin-top: 0;
+    padding-left: 20px;
+
+}
+.previewContainer h2 {
+    padding-left: 20px;
+
+}
+
+.previewContainer h3{
+    padding-left: 20px;
+    margin-bottom: 0;
+
+}
+.previewContainer p{
+    margin-top: 0;
+    padding-left: 20px;
+
+}
+.d_btn{
+    padding: 10px;
+    background-color: rgb(59, 150, 186);
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+    align-items: center;
+    margin: 15px auto;
+    
+
+}
