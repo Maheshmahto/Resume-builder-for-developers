@@ -37,16 +37,16 @@ const Preview = ({ data, checkbox }) => {
         <h4>{data?.address || "Address"}</h4>
         <div className={styles.contact}>
           <span className={styles.phone}>
-            <FaSquarePhone /> {data?.number || "Phone Number"}
+            <FaSquarePhone /> {data?.number || "Number"}
           </span>
           <span className={styles.email}>
             <IoIosMail className={styles.email2} /> {data?.email || "Email"}
           </span>
           <a href={data?.linkedin || "#"} className={styles.linkedin}>
-            <FaLinkedin /> {data?.linkedin ? "LinkedIn" : "Your LinkedIn"}
+            <FaLinkedin /> {data?.linkedin || "LinkedIn"}
           </a>
           <a href={data?.github || "#"} className={styles.github}>
-            <FaGithubSquare /> {data?.github ? "GitHub" : "Your GitHub"}
+            <FaGithubSquare /> {data?.github || "GitHub"}
           </a>
         </div>
 

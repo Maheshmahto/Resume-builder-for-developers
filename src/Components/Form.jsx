@@ -73,18 +73,17 @@ const Form = ({ onSubmit, checkClicked }) => {
         type="text"
         value={formData.linkedin}
         name="linkedin"
-        placeholder="Enter your LinkedIn"
+        placeholder=" LinkedIn id link"
         onChange={(e) => setFormData({ ...formData, linkedin: e.target.value })}
       />
       <input
         type="text"
         value={formData.github}
         name="github"
-        placeholder="Enter your Github"
+        placeholder=" Github id link"
         onChange={(e) => setFormData({ ...formData, github: e.target.value })}
       />
      
-      {/* Skills Section */}
       <h2>Technical Skills</h2>
       {formData.skills.map((skill, index) => (
          <div key={index} className="skills">       
@@ -107,7 +106,6 @@ const Form = ({ onSubmit, checkClicked }) => {
       ))}
       <button onClick={() => addSection("skills")}>Add Skill</button>
 
-      {/* Education Section */}
       <h2>Education</h2>
       {formData.degree.map((degree, index) => (
         <div key={index} className="education">
@@ -126,7 +124,6 @@ const Form = ({ onSubmit, checkClicked }) => {
       ))}
       <button onClick={() => addSection("degree")}>Add Education</button>
 
-      {/* Projects Section */}
       <h2>Projects</h2>
       {formData.projectName.map((project, index) => (
         <div key={index}className="project" >
@@ -145,7 +142,6 @@ const Form = ({ onSubmit, checkClicked }) => {
       ))}
       <button onClick={() => addSection("projectName")}>Add Project</button>
 
-      {/* Experience Section */}
       <div className="experience">
         <h2>Experience</h2>
         <div className="check">
@@ -171,7 +167,6 @@ const Form = ({ onSubmit, checkClicked }) => {
       ))}
       <button onClick={() => addSection("positionName")}>Add Experience</button>
 
-      {/* Achievement & Certification */}
       <h2>Achievement & Certification</h2>
       {formData.aceivement.map((achievement, index) => (
         <div key={index} className="achieve">

@@ -118,40 +118,45 @@ textarea{
     }
 }
 @media screen and (max-width :600px){
+
+    .form-container{
+       width: 95%;
+       
+    }
     .skills input{
         margin: 5px auto;
         margin-left: 5px;
     }
     .education input{
         margin-bottom: 10px;
-        margin-left: 8px; 
+        margin-left: 5px; 
     }
     .education textarea{
         margin-bottom: 10px;
-        margin-left: 7.7px; 
+        margin-left: 5px; 
     }
     .project input{
         margin-bottom: 10px;
-        margin-left: 8px; 
+        margin-left: 5px; 
     }
     .project textarea{
         margin-bottom: 10px;
-        margin-left: 7.7px; 
+        margin-left: 5px; 
     }
     .expe-section input{
         margin-bottom: 10px;
-        margin-left: 8px; 
+        margin-left: 5px; 
     }
     .expe-section textarea{
         margin-bottom: 10px;
-        margin-left: 7.7px; 
+        margin-left: 5px; 
     }
     .achieve textarea {
         margin-bottom: 10px;
-        margin-left: 7.7px; 
+        margin-left: 5px; 
     }
     .check{
-        margin-left: 70px ;
+        margin-left: 45px ;
     }
     .form-container button{
         width: 50%;
